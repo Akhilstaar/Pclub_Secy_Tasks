@@ -15,7 +15,7 @@ Reading the partially decompiled code tells about the functions being performed.
 
 ## CheckPassword   Function
 
-![]{https://github.com/Akhilstaar/Pclub_Secy_Tasks/blob/main/Task-2_Rev-Bin/images/Screenshot%20from%202022-08-14%2020-39-17.png?raw=true}
+![](https://github.com/Akhilstaar/Pclub_Secy_Tasks/blob/main/Task-2_Rev-Bin/images/Screenshot%20from%202022-08-14%2020-39-17.png?raw=true)
 
 The password we entered is returned it this function as `param_1`. Then it is processing the param and location of local_88(`=5`).
 

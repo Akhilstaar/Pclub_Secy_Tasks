@@ -4,8 +4,12 @@
 
 Opened the file in ghidra, decompiled it and analyzed the code and the memory. 
 
+![](https://github.com/Akhilstaar/Pclub_Secy_Tasks/blob/main/Task-2_Rev-Bin/images/Screenshot%20from%202022-08-14%2020-27-24.png?raw=true)
+
 Then took the decompiled codes of Process, prepare, verify, Format, CheckRes, CheckPassword and Main.
 and pasted them aligned in VS code.
+
+
 
 Reading the partially decompiled code tells about the functions being performed. ie. Firstly the variables are defined (including the char arrray of the input password). Then it is calling the checkPassword function with the char array of password in it.
 

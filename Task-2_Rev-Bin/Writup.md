@@ -15,11 +15,15 @@ Reading the partially decompiled code tells about the functions being performed.
 
 ## CheckPassword   Function
 
+![]{https://github.com/Akhilstaar/Pclub_Secy_Tasks/blob/main/Task-2_Rev-Bin/images/Screenshot%20from%202022-08-14%2020-39-17.png?raw=true}
+
 The password we entered is returned it this function as `param_1`. Then it is processing the param and location of local_88(`=5`).
 
 I'm moving from end to top.
 
 ## CheckRes function
+
+![](https://github.com/Akhilstaar/Pclub_Secy_Tasks/blob/main/Task-2_Rev-Bin/images/Screenshot%20from%202022-08-14%2020-40-45.png?raw=true)
 
 The checkRes function is checking  that the password is equal to &DAT_000120c0 or not.
 
@@ -42,6 +46,8 @@ Tried putting them as password but the numbers are quite large & didn't work.
 ## format function
 
 Moving up to `format` function
+
+![](https://github.com/Akhilstaar/Pclub_Secy_Tasks/blob/main/Task-2_Rev-Bin/images/Screenshot%20from%202022-08-14%2020-42-40.png?raw=true)
 
 It shows that it is left shifting the input array (password) elements by param_2 number of times and then checkRes is comparing them with the predefined array.
 
@@ -105,6 +111,10 @@ for i in range(30):
 print(''.join([chr(x) for x in Pass]))
 
 ```
+
+EXECUTION
+
+![](https://github.com/Akhilstaar/Pclub_Secy_Tasks/blob/main/Task-2_Rev-Bin/images/Screenshot%20from%202022-08-14%2020-44-56.png?raw=true)
 
 ## Trying the password on the file 
 
